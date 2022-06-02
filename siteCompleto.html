@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Site Completo</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <style>
+      .tm-social {
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+
+</head>
+<body>
+    
+    <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-black-50" href="#">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black-50" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Desativado</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!--/NavBar-->
+
+  <!--Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100"
+          src="assets/img/interceptor650.jpg" alt="moto estilo retrô da Royal Enfield, interceptor 650cc">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="assets/img/continentalGT.jpg" alt="moto estilo retrô da Royal Enfield, continental GT 650cc">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/meteor350.jpg" alt="moto estilo retrô da Royal Enfield, meteor 350cc">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/himalayan400.png" alt="moto estilo trail retrô da Royal Enfield, himalayan 400cc">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <!--/Carousel-->
+
+  <!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid bg-light p-2">
+    <div class="container">
+      <h1 class="display-4">Meteor 350</h1>
+      <p class="lead">A nova Meteor 350 representa a pura, e eterna, essência do motociclismo e do espírito cruiser. Possui design clássico com linhas atemporais. A Meteor 350 está pronta para as estradas e as desafiadoras ruas da cidade.</p>
+    </div>
+  </div>
+  <!--/Jumbotron-->
+
+   <!--Cards-->
+   <div class="container">
+    <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
+          <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a
+            um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
+            conteúdo adicional.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+      </div>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+          <footer class="blockquote-footer">
+            <small>
+              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
+            conteúdo adicional.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src=".../100px260/" alt="Imagem do card">
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
+            conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em
+            ação.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+      </div>
+    </div>
+    <!--/Cards-->
+
+    <!--Texto e Video-->
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Meteor 350</h3>
+        <h4>A História</h4>
+        <p>A nova Meteor 350 representa a pura, e eterna, essência do motociclismo e do espírito cruiser. 
+          Possui design clássico com linhas atemporais. A Meteor 350 está pronta para as estradas e as desafiadoras ruas da cidade.
+        </p>
+        <h4>Pilotando no Tempo</h4>
+        <p>
+          "Crescer nos anos 80 significou que a ideia de uma motocicleta pra mim foi uma cruiser. Isso não 
+          quer dizer que eu era o “cara da cruiser”, mas quando você vê muitas coisas, isso se torna o principal 
+          quadro de referência e desejo, neste caso! Evoluindo de uma dieta de bicicletas até o final da adolescência, 
+          fiquei bastante hipnotizado pela ideia do estilo cruiser americano por excelência - e o primeiro que realmente 
+          vi em pessoa e imediatamente me apaixonei foi a Royal Enfield Citybike." - Siddhartha Lal.
+        </p>
+      </div>
+
+      <div class="col-md-6">
+        <iframe width="560" 
+        height="315" src="https://www.youtube.com/embed/CSGbOij_-bE" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+      </div>
+    </div>
+    <!--/Texto e Video-->
+
+    <!--Rodapé-->
+    <hr>
+    <footer>
+
+      <div class="row mb-0">
+        <div class="col-md-12 d-flex justify-content-center">
+          
+            <a href="https://www.github.com/larvakent" target="_blank" class="p-2">
+              <img class="tm-social" src="assets/img/github.png" alt="Logo do Facebook">
+            </a>
+      
+            <a href="https://www.linkedin.com/lavinia-amorim" target="_blank" class="p-2">
+              <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+      
+            <a href="https://www.instagram.com/lavinia_amorims" target="_blank" class="p-2">
+              <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Intagram">
+            </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            Todos os direitos reservados: Lavínia Amorim &copy
+          </p>
+        </div>
+      </div>
+    
+    </footer>
+    <!--/Rodapé-->
+
+    <!--Falta colocar um formulário-->
+
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+</html>
